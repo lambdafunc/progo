@@ -8,6 +8,9 @@ def unique(string):
     condition will return false and will exited.
     Use PyCharm Debugger to make life easy.
     '''
+    if len(string) > 128:
+        return False
+
     char_set = [False for _ in range(128)]
     for char in string:
         val = ord(char)
