@@ -1,3 +1,5 @@
+# O(N)
+
 def unique(string):
     '''
     Approach here is that we will create a bool list of 128 chars set to 'False',
